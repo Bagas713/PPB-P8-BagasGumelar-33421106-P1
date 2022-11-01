@@ -79,7 +79,7 @@ class Home extends StatelessWidget {
                   Text(
                     this.title,
                     textAlign: TextAlign.center,
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 20,fontFamily: 'Staatliches', fontWeight: FontWeight.bold),
                   ),
                   
                   Text(
@@ -87,7 +87,7 @@ class Home extends StatelessWidget {
                     textAlign: TextAlign.center, 
                     style: TextStyle(
                       color: Color.fromARGB(255, 149, 161, 171),
-                      fontSize: 15, 
+                      fontSize: 15, fontFamily: 'Staatliches'
                     ),
                   )
                 ],
@@ -100,7 +100,7 @@ class Home extends StatelessWidget {
             padding: EdgeInsets.all(15),
             child: Text(this.description,
             style: TextStyle(
-              fontSize: 14
+              fontSize: 14, fontFamily: 'Oxygen'
             ),
             textAlign: TextAlign.justify,
             softWrap: true,
